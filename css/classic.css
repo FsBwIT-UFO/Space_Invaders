@@ -1,0 +1,34 @@
+/*classic.css*/
+/*klassische Ansicht aus den 80er*/
+*{
+    padding: 0px;
+    margin:  0px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/background.png');
+}
+
+#logo{
+    padding: 5% 0% 0% 25%;
+    width: 40%;
+    height: 40%;
+}
+
+#info{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+#mute{
+    width: 25px;;
+    height: 25px;
+    background-image: url('../images/icon_Mute20x20.png');
+    border-collapse: collapse;
+    border: transparent;
+    background-color: transparent;
+    
+}
